@@ -1,6 +1,7 @@
 detection/ops/build/
 detection/ops/MultiScaleDeformableAttention.egg-info/
 detection/ops/dist/
+detection/ops/modules/
 detection/ops/functions/
 detection/ops/logs/
 segmentation/logs/
