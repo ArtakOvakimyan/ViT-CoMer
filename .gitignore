@@ -1,0 +1,11 @@
+detection/ops/build/
+detection/ops/MultiScaleDeformableAttention.egg-info/
+detection/ops/dist/
+detection/ops/functions/
+detection/ops/logs/
+segmentation/logs/
+segmentation/ops/
+logs/
+segmentation/mmseg_custom/
+segmentation/mmcv_custom/__pycache__/
+segmentation/work_dirs/
