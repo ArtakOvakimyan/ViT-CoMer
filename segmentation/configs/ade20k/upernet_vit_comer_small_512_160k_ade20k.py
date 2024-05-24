@@ -3,8 +3,8 @@ _base_ = [
     '../_base_/models/upernet_r50.py', '../_base_/datasets/ade20k.py',
     '../_base_/default_runtime.py', '../_base_/schedules/schedule_160k.py'
 ]
-# pretrained = 'https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth'
-pretrained = 'pretrained/deit_small_patch16_224-cd65a155.pth'
+pretrained = 'https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth'
+#pretrained = 'pretrained/deit_small_patch16_224-cd65a155.pth'
 model = dict(
     pretrained=pretrained,
     backbone=dict(

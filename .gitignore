@@ -5,7 +5,9 @@ detection/ops/modules/
 detection/ops/functions/
 detection/ops/logs/
 segmentation/logs/
+segmentation/ops
 segmentation/ops/
+segmentation/venv/
 logs/
 segmentation/mmseg_custom/
 segmentation/mmcv_custom/__pycache__/

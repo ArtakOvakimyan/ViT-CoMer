@@ -2,7 +2,8 @@ _base_ = [
     '../_base_/models/upernet_r50.py', '../_base_/datasets/ade20k.py',
     '../_base_/default_runtime.py', '../_base_/schedules/schedule_160k.py'
 ]
-pretrained = 'pretrained/deit_base_patch16_224-b5f2ef4d.pth'
+#pretrained = 'pretrained/deit_base_patch16_224-b5f2ef4d.pth'
+pretrained = 'https://dl.fbaipublicfiles.com/deit/deit_base_patch16_224-b5f2ef4d.pth'
 model = dict(
     pretrained=pretrained,
     backbone=dict(
